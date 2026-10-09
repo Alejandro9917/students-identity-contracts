@@ -1,0 +1,12 @@
+{
+  "name": "regulated-token-dapp",
+  "private": true,
+  "workspaces": ["frontend", "contracts"],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "chain": "npm run node --workspace contracts",
+    "compile": "npm run compile --workspace contracts",
+    "test": "npm run test --workspace contracts",
+    "deploy:local": "npm run deploy:local --workspace contracts"
+  }
+}
